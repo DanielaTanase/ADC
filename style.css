@@ -1,0 +1,135 @@
+body {
+    font-family: Inter, sans-serif;
+}
+
+.header-part1 {
+    height: 60px;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.logo {
+    margin: 10px 0;
+}
+
+.dropdown {
+    margin: 0 40px;
+    height: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdrown-language {
+    font-weight: 500;
+}
+
+.lang {
+    display: flex;
+    align-items: center;
+}
+
+.lang::before {
+    content:" ";
+    width: 30px;
+    height: 24px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 24px;
+}
+
+.lang::after {
+    content:" ";
+    width: 20px;
+    height: 10px;
+    background: url(/HomePage/Images/icon-dropdown.svg) center/10px no-repeat;
+}
+
+.lang.en::before {
+    background-image: url(/HomePage/Images/icon-en.svg);
+}
+
+
+
+.contact-mail {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.cotact-nav {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height:100%;
+}
+
+.mail-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height:100%;
+    color: #000;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ a:hover {
+    color:rgb(69, 196, 215);
+ }
+
+ .mail-link::before {
+    content: "";
+    flex: 0 0 auto;
+    width: 25px;
+    height: 20px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/HomePage/Images/icon-email.svg);
+ }
+
+ .header-part2  {
+    background-color: #606060;
+    width:100%;
+    height: 60px;
+ }
+
+ .container-header2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+ }
+
+ .nav-list {
+    display:flex;
+    justify-content: space-between;
+    color:white;
+ }
+
+ .social-nav{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+ }
+
+ .social-list{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .social-button {
+    margin-left: 15px;
+ }
