@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link href="reset.css" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<link href="reset.css" rel="stylesheet" type="text/css"/>
     <link href="grid.css" rel="stylesheet" type="text/css"/>
     <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -67,21 +68,51 @@
             </div>
         </div>
     </header>
-    <section class="section1 bgSlider">
-        <div class="container">
-            <div class="row section1Row">
-                <div class="col-5 rightSideText">
-                    <div class="text-content">
-                        <h2 class="section1h2"><span class="firstLetter">A</span>nother<br>
-                            <span class="firstLetter">D</span>istribution<br>
-                            <span class="firstLetter">C</span>ompany
-                        </h2>
-                        <p class="section1p">A forward-thinking organization, specialized in IT and Green Energy solutions.</p>
-                        <p class="section1p">With a firm belief in collaboration, we strive to bring your goals and dreams to life through our joint efforts.</p>
-                        <button class="section1Button"><a class="prove">Prove it!</a></button>
+    <section class="section1">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="bgPos bgSlider">
+                        <div class="container">
+                            <div class="row section1Row">
+                                <div class="col-5 rightSideText">
+                                    <div class="text-content">
+                                        <h2 class="section1h2"><span class="firstLetter">A</span>nother<br>
+                                            <span class="firstLetter">D</span>istribution<br>
+                                            <span class="firstLetter">C</span>ompany
+                                        </h2>
+                                        <p class="section1p">A forward-thinking organization, specialized in IT and Green Energy solutions.</p>
+                                        <p class="section1p">With a firm belief in collaboration, we strive to bring your goals and dreams to life through our joint efforts.</p>
+                                        <button class="section1Button"><a class="prove">Prove it!</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <div class="swiper-slide">
+					<div class="bgPos bgSlider2">
+						<div class="container">
+							<div class="row section1Row">
+								<div class="col-5 rightSideText">
+									<div class="text-content">
+										<h2 class="section1h2"><span class="firstLetter">A</span>nother<br>
+											<span class="firstLetter">D</span>istribution<br>
+											<span class="firstLetter">C</span>ompany
+										</h2>
+										<p class="section1p">A forward-thinking organization, specialized in IT and Green Energy solutions.</p>
+										<p class="section1p">With a firm belief in collaboration, we strive to bring your goals and dreams to life through our joint efforts.</p>
+										<button class="section1Button"><a class="prove">Prove it!</a></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+                </div>
             </div>
+			<!-- <div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div> -->
+			<div class="swiper-pagination"></div>
         </div>
         <div class="header-part2">
             <div class="container">
@@ -91,11 +122,12 @@
             </div>
         </div>
     </section>
-    <section class="section2">
-        <div class="section2-part1"></div>
-        <div class="section2-part2"></div>
-        <div class="section2-part3"></div>
+    <section class="section3">
+        <div class="section3-part1"></div>
+        <div class="section3-part2"></div>
+        <div class="section3-part3"></div>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
