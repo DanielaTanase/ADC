@@ -355,3 +355,63 @@ a:hover {
   font-weight: 700;
   text-align: center;
 }
+
+.section3 {
+  width: 100%;
+  background-color: #e7f8f9;
+  padding: 40px 0 40px;
+}
+
+.col12Section3 {
+  margin: 40px auto;
+}
+
+.rowS3 {
+  justify-content: space-between;
+}
+
+hr {
+  height: 1px;
+  border: 0;
+  background: #0fb9c2;
+  margin: 20px 20px 20px;
+  padding:0;
+  width: 100%;
+  max-width: 1180px;
+}
+
+.section3h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+
+.section3p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.section3btn {
+  width: 240px;
+  height: 50px;
+  color:#0fb9c2;
+  box-sizing: border-box;
+  border: 2px solid #0fb9c2;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+.section3btn:hover {
+  background-color: #5bcbd1;
+  color: black;
+}
+
+.noMarginB {
+  margin-bottom: 0;
+}
+
+

@@ -1,168 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-	<link href="reset.css" rel="stylesheet" type="text/css"/>
-    <link href="grid.css" rel="stylesheet" type="text/css"/>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link href="reset.css" rel="stylesheet" type="text/css" />
+    <link href="grid.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
     <header>
-        <div class="container header-container">
-            <div class="row row-strech header-part1 ">
-                <div class="col-6 logo-container">
-                    <div class="logo">
-                        <img src="Images/logo.png" alt="ADC" width="81" height="40">
-                    </div>
-                    <nav class="dropdown">
-                        <button type="button" class="dropdown-language">
-                            <span class="lang en">
-                                EN</span>
-                        </button>
-                        <ul class="dropdown-list">
-                            <li class="dropdown-item"></li>
-                            <li class="dropdown-item"></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-6 contact-mail">
-                    <nav class="contact-nav">
-                        <a  class="mail-link" href="mailto:office@adc.ro">office@adc.ro</a>
-                    </nav>
-                </div>
+      <div class="container header-container">
+        <div class="row row-strech header-part1">
+          <div class="col-6 logo-container">
+            <div class="logo">
+              <img src="Images/logo.png" alt="ADC" width="81" height="40" />
             </div>
+            <nav class="dropdown">
+              <button type="button" class="dropdown-language">
+                <span class="lang en"> EN</span>
+              </button>
+              <ul class="dropdown-list">
+                <li class="dropdown-item"></li>
+                <li class="dropdown-item"></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-6 contact-mail">
+            <nav class="contact-nav">
+              <a class="mail-link" href="mailto:office@adc.ro">office@adc.ro</a>
+            </nav>
+          </div>
         </div>
-        <div class="header-part2">
-            <div class="container">
-                <div class="row row-strech container-header2">
-                    <nav class="nav col-6">
-                        <ul class="nav-list">
-                            <li class="nav-button"><a>TOGETHER</a></li>
-                            <li class="nav-button"><a>WE PROVIDE</a></li>
-                            <li class="nav-button"><a>GROW INTO</a></li>
-                            <li class="nav-button"><a>CAREERS</a></li>
-                            <li class="nav-button"><a>BLOG</a></li>
-                            <li class="nav-button"><a>CONTACT</a></li>
-                        </ul>
-                    </nav>
-                    <nav class="social-nav col-6">
-                        <ul class="social-list">
-                            <li class="social-button">
-                                <a><img src="Images/icon-facebook.svg"/></a>
-                            </li>
-                            <li class="social-button">
-                                <a><img src="Images/icon-linkedin.svg"/></a>
-                            </li>
-                            <li class="social-button">
-                                <a><img src="Images/icon-instagram.svg"/></a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
+      </div>
+      <div class="header-part2">
+        <div class="container">
+          <div class="row row-strech container-header2">
+            <nav class="nav col-6">
+              <ul class="nav-list">
+                <li class="nav-button"><a>TOGETHER</a></li>
+                <li class="nav-button"><a>WE PROVIDE</a></li>
+                <li class="nav-button"><a>GROW INTO</a></li>
+                <li class="nav-button"><a>CAREERS</a></li>
+                <li class="nav-button"><a>BLOG</a></li>
+                <li class="nav-button"><a>CONTACT</a></li>
+              </ul>
+            </nav>
+            <nav class="social-nav col-6">
+              <ul class="social-list">
+                <li class="social-button">
+                  <a><img src="Images/icon-facebook.svg" /></a>
+                </li>
+                <li class="social-button">
+                  <a><img src="Images/icon-linkedin.svg" /></a>
+                </li>
+                <li class="social-button">
+                  <a><img src="Images/icon-instagram.svg" /></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
+      </div>
     </header>
     <section class="section1">
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="bgPos bgSlider">
-                        <div class="container">
-                            <div class="row section1Row">
-                                <div class="col-5 rightSideText">
-                                    <div class="text-content">
-                                        <h2 class="section1h2"><span class="firstLetter">A</span>nother<br>
-                                            <span class="firstLetter">D</span>istribution<br>
-                                            <span class="firstLetter">C</span>ompany
-                                        </h2>
-                                        <p class="section1p">A forward-thinking organization, specialized in IT and Green Energy solutions.</p>
-                                        <p class="section1p">With a firm belief in collaboration, we strive to bring your goals and dreams to life through our joint efforts.</p>
-                                        <button class="section1Button"><a class="prove">Prove it!</a></button>
-                                    </div>
-                                </div>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="bgPos bgSlider">
+              <div class="container">
+                <div class="row section1Row">
+                  <div class="col-5 rightSideText">
+                    <div class="text-content">
+                      <h2 class="section1h2">
+                        <span class="firstLetter">A</span>nother<br />
+                        <span class="firstLetter">D</span>istribution<br />
+                        <span class="firstLetter">C</span>ompany
+                      </h2>
+                      <p class="section1p">
+                        A forward-thinking organization, specialized in IT and
+                        Green Energy solutions.
+                      </p>
+                      <p class="section1p">
+                        With a firm belief in collaboration, we strive to bring
+                        your goals and dreams to life through our joint efforts.
+                      </p>
+                      <button class="section1Button">
+                        <a class="prove">Prove it!</a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="bgPos bgSlider2">
+              <div class="container">
+                <div class="row section1Row">
+                  <div class="col-5 rightSideText">
+                    <div class="text-content">
+                      <h2 class="section1h2">
+                        <span class="firstLetter">A</span>nother<br />
+                        <span class="firstLetter">D</span>istribution<br />
+                        <span class="firstLetter">C</span>ompany
+                      </h2>
+                      <p class="section1p">
+                        A forward-thinking organization, specialized in IT and
+                        Green Energy solutions.
+                      </p>
+                      <p class="section1p">
+                        With a firm belief in collaboration, we strive to bring
+                        your goals and dreams to life through our joint efforts.
+                      </p>
+                      <button class="section1Button">
+                        <a class="prove">Prove it!</a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div> -->
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="header-part2">
+        <div class="container">
+          <div class="row header-part2Container">
+            <p class="header-part2text">
+              Your dreams, our goals, another joint work!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section2">
+      <div class="container">
+        <div class="row row-strech section2Cont">
+          <div class="section2-part1 col-10">
+            <h2 class="headingSect2">
+              To help you <span class="spanS2">grow your business</span> and
+              generate win-win scenarios exclusively
+            </h2>
+          </div>
+          <div class="section2-part2 col-10 row row-strech">
+            <div class="col-3 col-strech">
+              <div class="box">
+                <figure class="boxIcon"><img src="Images/icon-1.svg" /></figure>
+                <h3 class="boxTitle">IT Distribution</h3>
+              </div>
+            </div>
+            <div class="col-3 col-strech">
+              <div class="box">
+                <figure class="boxIcon"><img src="Images/icon-2.svg" /></figure>
+                <h3 class="boxTitle">Green Energy</h3>
+              </div>
+            </div>
+            <div class="col-3 col-strech">
+              <div class="box">
+                <figure class="boxIcon"><img src="Images/icon-3.svg" /></figure>
+                <h3 class="boxTitle">Cloud Solution</h3>
+              </div>
+            </div>
+            <div class="col-3 col-strech">
+              <div class="box">
+                <figure class="boxIcon"><img src="Images/icon-4.svg" /></figure>
+                <h3 class="boxTitle">Telco Distribution</h3>
+              </div>
+            </div>
+          </div>
+          <div class="section2-part3 col-10">
+            <h4 class="subheadingS2">
+              <span class="spanS2">We build our own paths </span>with the use of
+              innovative and creative methods, to meet the evolving needs of our
+              clients.
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section3">
+        <div class="container">
+            <div class="row row-strech">
+                <div class="col-12 col12Section3">
+                    <div class="container">
+                        <div class="row row-strech rowS3">
+                            <div class="col-6">
+                                <h3 class="section3h3">IT Distribution</h3>
+                                <p class="section3p">Even the best equipment requires maintenance, and we recognized this need early on. ADC decided to enhance its services by partnering with an authorized repair center to provide that extra level of support. This means that we work closely to ensure that your equipment is appropriately serviced. With that in mind, you can trust that genuine parts will be used in your repairs, eliminating the need to seek a third-party service provider</p>
+                                <button class="section3btn">LEARN MORE</button>
+                            </div>
+                            <div clss="col-5">
+                                <figure>
+                                    <img src="Images/figure-1.jpg" width="480" height="320" >
+                                </figure>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
-					<div class="bgPos bgSlider2">
-						<div class="container">
-							<div class="row section1Row">
-								<div class="col-5 rightSideText">
-									<div class="text-content">
-										<h2 class="section1h2"><span class="firstLetter">A</span>nother<br>
-											<span class="firstLetter">D</span>istribution<br>
-											<span class="firstLetter">C</span>ompany
-										</h2>
-										<p class="section1p">A forward-thinking organization, specialized in IT and Green Energy solutions.</p>
-										<p class="section1p">With a firm belief in collaboration, we strive to bring your goals and dreams to life through our joint efforts.</p>
-										<button class="section1Button"><a class="prove">Prove it!</a></button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-                </div>
-            </div>
-			<!-- <div class="swiper-button-next"></div>
-			<div class="swiper-button-prev"></div> -->
-			<div class="swiper-pagination"></div>
-        </div>
-        <div class="header-part2">
-            <div class="container">
-                <div class="row header-part2Container">
-                    <p class="header-part2text">Your dreams, our goals, another joint work!</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="section2">
-        <div class="container">
-            <div class="row row-strech section2Cont">
-                <div class="section2-part1 col-10">
-                    <h2 class="headingSect2">To help you <span class="spanS2">grow your business</span> and generate win-win scenarios exclusively</h2>
-                </div>
-                <div class="section2-part2 col-10 row row-strech">
-                    <div class="col-3 col-strech">
-                        <div class="box">
-                            <figure class="boxIcon"><img src="Images/icon-1.svg"></figure>
-                            <h3 class="boxTitle">IT Distribution</h3>
+                <hr>
+                <div class="col-12 col12Section3 noMarginB">
+                    <div class="container">
+                        <div class="row row-strech rowS3">
+                            <div clss="col-5">
+                                <figure>
+                                    <img src="Images/figure-2.jpg" width="480" height="320">
+                                </figure>
+                            </div>
+                            <div class="col-6">
+                                <h3 class="section3h3"> Green Energy</h3>
+                                <p class="section3p">Every business is unique. Every market has its own perks. Therefore, ADC incorporated agility into the very core of its actions. Customizing solutions became the very source of our rapid and successful development. Let’s reshape the future of ICT & Green Energy together!</p>
+                                <button class="section3btn">LEARN MORE</button>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-3 col-strech">
-                        <div class="box">
-                            <figure class="boxIcon"><img src="Images/icon-2.svg"></figure>
-                            <h3 class="boxTitle">Green Energy</h3>
-                        </div>
-                    </div>
-                    <div class="col-3 col-strech">
-                        <div class="box">
-                            <figure class="boxIcon"><img src="Images/icon-3.svg"></figure>
-                            <h3 class="boxTitle">Cloud Solution</h3>
-                        </div>
-                    </div>
-                    <div class="col-3 col-strech">
-                        <div class="box">
-                            <figure class="boxIcon"><img src="Images/icon-4.svg"></figure>
-                            <h3 class="boxTitle">Telco Distribution</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="section2-part3 col-10">
-                    <h4 class="subheadingS2">
-                        <span class="spanS2">We build our own paths </span>with the use of innovative and creative methods, to meet the evolving needs of our clients.
-                    </h4>
                 </div>
             </div>
         </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
