@@ -20,7 +20,7 @@
             <div class="logo">
               <img src="Images/logo.png" alt="ADC" width="81" height="40" />
             </div>
-            <nav class="dropdown">
+            <nav class="dropdownLang">
               <button type="button" class="dropdown-language">
                 <span class="lang en"> EN</span>
               </button>
@@ -31,23 +31,26 @@
             </nav>
           </div>
           <div class="col-6 contact-mail">
-            <nav class="contact-nav">
+            <div class="contact-nav">
               <a class="mail-link" href="mailto:office@adc.ro">office@adc.ro</a>
-            </nav>
+            </div>
           </div>
+          <button onclick="myFunction()" class="dropBtn">
+            <img class="menuBtn" src="Images/menu.svg" width="40" height="40">
+          </button>
         </div>
       </div>
       <div class="header-part2">
         <div class="container">
           <div class="row row-strech container-header2">
-            <nav class="nav col-6">
+            <nav class="nav col-6" id="myDropdown">
               <ul class="nav-list">
-                <li class="nav-button"><a>TOGETHER</a></li>
-                <li class="nav-button"><a>WE PROVIDE</a></li>
-                <li class="nav-button"><a>GROW INTO</a></li>
-                <li class="nav-button"><a>CAREERS</a></li>
-                <li class="nav-button"><a>BLOG</a></li>
-                <li class="nav-button"><a>CONTACT</a></li>
+                <li class="nav-button"><a href="" class="dropLink">TOGETHER</a></li>
+                <li class="nav-button"><a href="" class="dropLink">WE PROVIDE</a></li>
+                <li class="nav-button"><a href="" class="dropLink">GROW INTO</a></li>
+                <li class="nav-button"><a href="" class="dropLink">CAREERS</a></li>
+                <li class="nav-button"><a href="" class="dropLink">BLOG</a></li>
+                <li class="nav-button"><a href="" class="dropLink">CONTACT</a></li>
               </ul>
             </nav>
             <button class="contactBtn">CONTACT</button>

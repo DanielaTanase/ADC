@@ -26,7 +26,7 @@ header {
   margin: 10px 0;
 }
 
-.dropdown {
+.dropdownLang{
   margin: 0 40px;
   height: 100%;
   display: inline-flex;
@@ -122,6 +122,10 @@ a:hover {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.dropBtn {
+  display:none
 }
 
 .header-part2 {
@@ -693,16 +697,46 @@ footer {
     height: fit-content;
   }
 
-  nav {
-    display: none;
+  .nav {
+    display:none;
+    width:100%;
   }
 
-  .contact-nav{
+  .nav.show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+    height: calc(100% - 60px);
+    top: 60px;
+    left: 0;
+    background-color: #606060;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-button {
+    margin: 10px;
+  }
+
+  .dropLink{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .contact-mail{
     display: none;
   }
 
   .container-header2 {
     justify-content: space-between;
+    align-items: center;
   }
 
   .contactBtn {
@@ -711,6 +745,17 @@ footer {
 
   .contactBtn:hover {
     background-color: #5bcbd1;
+  }
+
+  .header-part1 {
+    justify-content: space-between;
+  }
+
+  .dropBtn {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
   }
 
   .bgSlider2,
